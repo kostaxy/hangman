@@ -1,0 +1,15 @@
+.game-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  @include sm {
+    flex-direction: column;
+  }
+  @include md {
+    flex-direction: row;
+  }
+  @include xl {
+    flex-direction: row;
+  }
+}

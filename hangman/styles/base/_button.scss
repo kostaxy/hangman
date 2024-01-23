@@ -1,0 +1,20 @@
+button {
+  border: 1px solid $key-border;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  text-transform: uppercase;
+  color: $key-border;
+  cursor: pointer;
+  background-color: #fff;
+  transition: all 0.3s ease;
+  padding: 10px;
+  @include md {
+    padding: 15px;
+  }
+  @include xl {
+    padding: 20px;
+  }
+}
+button:hover {
+  background-color: $key-hover;
+}

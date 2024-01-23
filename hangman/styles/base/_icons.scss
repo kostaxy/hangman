@@ -1,0 +1,128 @@
+.icon {
+  display: inline-block;
+}
+.icon-win {
+  background-image: url(../assets/face/win.svg);
+  background-size: cover;
+  vertical-align: top;
+  width: 100px;
+  height: 100px;
+}
+.icon-loss {
+  background-image: url(../assets/face/loss.svg);
+  background-size: cover;
+  vertical-align: top;
+  width: 100px;
+  height: 100px;
+}
+.modal__message-icon {
+  margin: 20px;
+}
+.icon-stand {
+  background-image: url(../assets/game/stand.svg);
+  background-size: cover;
+  vertical-align: top;
+  position: absolute;
+  width: calc(353px * 0.5);
+  height: calc(581px * 0.5);
+  @include xl {
+    width:  353px;
+    height: 581px;
+  }
+}
+.icon-head {
+  background-image: url(../assets/game/head.svg);
+  background-size: cover;
+  vertical-align: top;
+  position: absolute;
+  width: calc(101px * 0.5);
+  height: calc(101px * 0.5);
+  top: calc(150px * 0.5);
+  left: calc(252px * 0.5);
+  @include xl {
+    width: 101px;
+    height: 101px;
+    top: 150px;
+    left: 252px;
+  }
+}
+.icon-body {
+  background-image: url(../assets/game/body.svg);
+  background-size: cover;
+  vertical-align: top;
+  position: absolute;
+  width: calc(5px * 0.5);
+  height: calc(131px * 0.5);
+  left: calc(300px * 0.5);
+  top: calc(250px * 0.5);
+  @include xl {
+    width: 5px;
+    height: 131px;
+    left: 300px;
+    top: 250px;
+  }
+}
+.icon-left-hand {
+  background-image: url(../assets/game/hand-one.svg);
+  background-size: cover;
+  vertical-align: top;
+  position: absolute;
+  width: calc(68px * 0.5);
+  height: calc(80px * 0.5);
+  top: calc(250px * 0.5);
+  left: calc(235px * 0.5);
+  @include xl {
+    width: 68px;
+    height: 80px;
+    top: 250px;
+    left: 235px;
+  }
+}
+.icon-right-hand {
+  background-image: url(../assets/game/hand-two.svg);
+  background-size: cover;
+  vertical-align: top;
+  position: absolute;
+  width: calc(68px * 0.5);
+  height: calc(80px * 0.5);
+  top: calc(250px * 0.5);
+  left: calc(302px * 0.5);
+  @include xl {
+    width: 68px;
+    height: 80px;
+    top: 250px;
+    left: 302px;
+  }
+}
+.icon-left-leg {
+  background-image: url(../assets/game/leg-one.svg);
+  background-size: cover;
+  vertical-align: top;
+  position: absolute;
+  width: calc(68px * 0.5);
+  height: calc(80px * 0.5);
+  top: calc(378px * 0.5);
+  left: calc(237px * 0.5);
+  @include xl {
+    width: 68px;
+    height: 80px;
+    top: 378px;
+    left: 237px;
+  }
+}
+.icon-right-leg {
+  background-image: url(../assets/game/leg-two.svg);
+  background-size: cover;
+  vertical-align: top;
+  position: absolute;
+  width: calc(68px * 0.5);
+  height: calc(80px * 0.5);
+  top: calc(378px * 0.5);
+  left: calc(300px * 0.5);
+  @include xl {
+    width: 68px;
+    height: 80px;
+    top: 378px;
+    left: 300px;
+  }
+}

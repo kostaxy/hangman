@@ -1,0 +1,25 @@
+$sm: 360px;
+$md: 768px;
+$xl: 1440px;
+
+@mixin sm {
+  @media (min-width: $sm) {
+    @content;
+  }
+}
+@mixin md {
+  @media (min-width: $md) {
+    @content;
+  }
+}
+@mixin xl {
+  @media (min-width: $xl) {
+    @content;
+  }
+}
+
+@mixin hide-header {
+  @media (max-width: calc($md)) {
+    @content;
+  }
+}

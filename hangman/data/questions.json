@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "hint": "What is the capital of Finland?",
+    "answer": "Helsinki"
+  },
+  {
+    "id": 2,
+    "hint": "What was the most popular girls name in the UK in 2021?",
+    "answer": "Olivia"
+  },
+  {
+    "id": 3,
+    "hint": "In what US state is the city Nashville?",
+    "answer": "Tennessee"
+  },
+  {
+    "id": 4,
+    "hint": "What is the smallest planet in our solar system?",
+    "answer": "Mercury"
+  },
+  {
+    "id": 5,
+    "hint": "In which part of your body would you find the cruciate ligament?",
+    "answer": "Knee"
+  },
+  {
+    "id": 6,
+    "hint": "What was the Turkish city of Istanbul called before 1930?",
+    "answer": "Constantinople"
+  },
+  {
+    "id": 7,
+    "hint": "What sport did David Beckham play?",
+    "answer": "Football"
+  },
+  {
+    "id": 8,
+    "hint": "Which country in the world is believed to have the most miles of motorway?",
+    "answer": "China"
+  },
+  {
+    "id": 9,
+    "hint": "Which European city hosted the 1936 Summer Olympics?",
+    "answer": "Berlin"
+  },
+  {
+    "id": 10,
+    "hint": "What language is spoken in Brazil?",
+    "answer": "Portuguese"
+  }
+]

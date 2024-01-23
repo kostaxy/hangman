@@ -1,0 +1,25 @@
+.gallows-container {    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 10px;
+  padding: 0;
+  min-width: calc(353px * 0.5);
+  height: calc(581px * 0.5);
+  @include sm {
+    min-width: calc(353px * 0.5);
+    height: calc(581px * 0.5);
+  }
+  @include md {
+    min-width: calc(353px * 0.5);
+    height: calc(581px * 0.5);
+  }
+  @include xl {
+    min-width: 353px;
+    height: 581px;
+  }
+}
+.hidden {
+  display: none;
+}
